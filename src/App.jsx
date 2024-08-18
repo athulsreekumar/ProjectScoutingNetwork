@@ -7,10 +7,13 @@ import Testimonials from './components/testimonials/testimonials';
 import Oursports from './components/oursports/oursports';
 import Ourclients from './components/ourclients/ourclients';
 import Footer from './components/footer/footer';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
+    
     <div className="App">
+      <SpeedInsights/>
       <Topbar />
       <div className="components">
         <Main />
