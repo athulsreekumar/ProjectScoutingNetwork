@@ -1,0 +1,28 @@
+.ourclients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    .titleDiv {
+        font-family: "Righteous", sans-serif;
+        font-size: 46px;
+        color: white;
+        padding: 50px;
+    }
+
+    .logoDiv {
+        .logoImgs {
+            display: flex;
+
+            
+                img {
+                    width: 61px;
+                    height: 61px;
+                    // -webkit-filter: grayscale(100%)
+                }
+        
+        }
+    }
+}

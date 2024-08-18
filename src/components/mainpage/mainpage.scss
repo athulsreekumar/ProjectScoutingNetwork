@@ -1,0 +1,91 @@
+.Main {
+    height: calc(100vh - 95px);
+    background-color: #2E2E2E;
+    display: flex;
+    padding-top: 150px;
+
+
+.leftMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.textdiv {
+    width: 444px;
+    color: white;
+
+    .titleText {
+        font-family: "Righteous", sans-serif;
+        font-size: 46px;
+    }
+
+    .subtext {
+
+        width: 380px;
+        text-align: justify;
+        font-size: 24px;
+        color: rgb(255, 255, 255, 0.58);
+
+    }
+}
+
+.buttonComponents {
+    display: flex;
+    // justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    .buttonDiv {
+        margin-left: 10px;
+        button {
+            width: 156px;
+            height: 56px;
+            background-color: rgba(255, 94, 94, 0.61);
+            border: none;
+            transition: all 0.3s ease-in-out;
+            color: white;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+
+    }
+
+    .outlineButtonDiv {
+        button {
+            color: white;
+            width: 156px;
+            height: 56px;
+            background-color: #2E2E2E;
+            border-radius: 2px;
+            border-color: rgba(255, 94, 94, 0.61);
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+    }
+}
+
+.rightMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .imgClass{
+        img{
+            width: 650px;
+            mix-blend-mode: lighten;
+        // height: 481px;
+        }
+        
+    }
+}
+
+}

@@ -1,0 +1,57 @@
+.oursports {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .titleDiv {
+        font-family: "Righteous", sans-serif;
+        font-size: 46px;
+        color: white;
+        padding: 50px;
+    }
+
+    .cardDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+        .card {
+            border: 2px solid white;
+            background: white;
+            width: 165px;
+            height: 210px;
+            margin: 30px;
+            border-radius: 18px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+            text-align: center;
+            
+
+            .topbox {
+                width: 150px;
+                height: 147px;
+                background-color: #2E2E2E;
+                border-radius: 12px;
+                margin: 7.5px;
+                // padding: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                img{
+                    height: 58px;
+                    width: 58px;
+                }
+
+            }
+
+            .cardTitle {
+                padding: 10px;
+                text-transform: lowercase;
+            }
+
+        }
+    }
+}

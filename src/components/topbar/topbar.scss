@@ -1,0 +1,70 @@
+.topbar{
+    width: 100%;
+    align-items: center;
+    background-color: #2E2E2E;
+    padding: 20px;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+.topBarOnScroll {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Example shadow */
+  }
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1920px; /* Set your desired maximum width */
+    width: 100%; /* Ensures that the element can scale down */
+    box-sizing: border-box; /* Includes padding in the element's width */
+}
+.left{
+    img{
+        height: 50px;
+    }
+}
+.center{
+    display: flex;
+    // align-items: center;
+    p{
+        margin: 15px;
+        font-family: "Arsenal", sans-serif;
+        font-optical-sizing: auto;
+        color: white;
+        cursor: pointer;
+
+    }
+    p:hover{
+        font-weight: 700;
+        // cursor: pointer;
+    }
+}
+
+.right{
+    button {
+        width: 130px;
+        height: 50px;
+        background-color: rgba(255, 94, 94, 0.61);
+        border: none;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        font-weight: 400; /* Ensure there's a default font weight */
+    }
+    
+    button:hover {
+        cursor: pointer;
+        color: rgba(255, 94, 94, 1);
+        background-color: white; /* Darken the background color */
+        transform: scale(1.05); /* Slightly enlarge the button */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    }
+    
+    
+}
+
+
